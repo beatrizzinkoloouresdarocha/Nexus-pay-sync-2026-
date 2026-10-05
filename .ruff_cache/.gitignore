@@ -17,6 +17,11 @@ __pycache__/
 .mypy_cache/
 *.log
 
+# Distribuição / Empacotamento (Opcional, mas recomendado)
+build/
+dist/
+*.egg-info/
+
 # IDEs
 .vscode/
 .idea/

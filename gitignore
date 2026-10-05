@@ -1,0 +1,11 @@
+venv/
+.env
+<<<<<<< HEAD
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+=======
+*.env
+__pycache__/
+>>>>>>> 1e9f7eb (fix: remove venv and add ignore rules properly)

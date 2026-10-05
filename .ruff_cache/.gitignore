@@ -1,4 +1,22 @@
-"
+# Ambientes virtuais e dependências
 venv/
+env/
+ENV/
+.venv/
+
+# Arquivos de configuração sensíveis
 .env
-" | Out-File -Encoding utf8 -Append .gitignore
+*.env
+
+# Cache e logs de ferramentas Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+*.log
+
+# IDEs
+.vscode/
+.idea/

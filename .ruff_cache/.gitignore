@@ -1,0 +1,27 @@
+# Ambientes virtuais e dependências
+venv/
+env/
+ENV/
+.venv/
+
+# Arquivos de configuração sensíveis
+.env
+*.env
+
+# Cache e logs de ferramentas Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+*.log
+
+# Distribuição / Empacotamento (Opcional, mas recomendado)
+build/
+dist/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/

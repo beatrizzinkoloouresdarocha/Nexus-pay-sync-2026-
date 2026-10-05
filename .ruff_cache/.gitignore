@@ -17,7 +17,7 @@ __pycache__/
 .mypy_cache/
 *.log
 
-# Distribuição / Empacotamento (Opcional, mas recomendado)
+# Distribuição / Empacotamento
 build/
 dist/
 *.egg-info/
@@ -26,11 +26,9 @@ dist/
 .vscode/
 .idea/
 
-# --- AJUSTES ACRESCENTADOS ---
-
 # Arquivos específicos do Sistema Operacional
-.DS_Store          # Arquivos de metadados do macOS
-Thumbs.db          # Miniaturas de pastas do Windows
+.DS_Store
+Thumbs.db
 ehthumbs.db
 
 # Arquivos temporários e de backup gerais
@@ -39,7 +37,7 @@ ehthumbs.db
 *.swo
 *~
 
-# Cobertura de testes e relatórios (caso use pytest-cov)
+# Cobertura de testes e relatórios
 htmlcov/
 .coverage
 .coverage.*

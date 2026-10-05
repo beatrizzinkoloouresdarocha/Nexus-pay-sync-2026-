@@ -22,6 +22,25 @@ build/
 dist/
 *.egg-info/
 
-# IDEs
+# IDEs e Editores
 .vscode/
 .idea/
+
+# --- AJUSTES ACRESCENTADOS ---
+
+# Arquivos específicos do Sistema Operacional
+.DS_Store          # Arquivos de metadados do macOS
+Thumbs.db          # Miniaturas de pastas do Windows
+ehthumbs.db
+
+# Arquivos temporários e de backup gerais
+*.bak
+*.swp
+*.swo
+*~
+
+# Cobertura de testes e relatórios (caso use pytest-cov)
+htmlcov/
+.coverage
+.coverage.*
+.cache

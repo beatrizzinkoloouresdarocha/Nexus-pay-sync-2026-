@@ -1,0 +1,14 @@
+# Ambientes virtuais
+venv/
+.venv/
+
+# Arquivos de configuração e segredos
+.env
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testes
+.pytest_cache/
